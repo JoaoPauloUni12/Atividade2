@@ -17,8 +17,8 @@ async function aguardarTodasAsPromessas() {
 
 aguardarTodasAsPromessas()
     .then((resultados) => {
-        console.log("Todas as promessas foram aguardadas com sucesso.", resultados);
+        console.log("Todas as promessas foram aguardadas com sucesso.", resultados)
     })
     .catch((erro) => {
-        console.error("Erro ao aguardar todas as promessas:", erro);
+        console.error("Erro ao aguardar todas as promessas:", erro)
     });
